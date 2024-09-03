@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Write a regex pattern to match one or more occurrences of 'ab'.",
+    "answer": "(ab)+"
+  },
+  {
+    "question": "Write a regex pattern to capture a three-digit number followed by a hyphen and a four-digit number.",
+    "answer": "(\\d{3})-(\\d{4})"
+  },
+  {
+    "question": "Write a regex pattern to match one or more occurrences of 'cd' without capturing.",
+    "answer": "(?:cd)+"
+  },
+  {
+    "question": "Write a regex pattern to capture an area code and phone number with named groups.",
+    "answer": "(?P<area_code>\\d{3})-(?P<number>\\d{4})"
+  },
+  {
+    "question": "Write a regex pattern to match repeated words.",
+    "answer": "(\\w+)\\s+\\1"
+  },
+  {
+    "question": "Write a regex pattern to match repeated words using a named group.",
+    "answer": "(?P<word>\\w+)\\s+(?P=word)"
+  },
+  {
+    "question": "Write a regex pattern to match 'I like cats' or 'I like dogs'.",
+    "answer": "I like (cats|dogs)"
+  },
+  {
+    "question": "Write a regex pattern to capture three groups: two digits, followed by a letter, followed by two more digits.",
+    "answer": "(\\d{2})([a-zA-Z])(\\d{2})"
+  },
+  {
+    "question": "Write a regex pattern to match and capture an email address, separating the username and domain.",
+    "answer": "([a-zA-Z0-9._%+-]+)@([a-zA-Z0-9.-]+\\.[a-zA-Z]{2,})"
+  },
+  {
+    "question": "Write a regex pattern to match a date in the format 'YYYY-MM-DD' and capture the year, month, and day separately.",
+    "answer": "(?P<year>\\d{4})-(?P<month>\\d{2})-(?P<day>\\d{2})"
+  }
+]

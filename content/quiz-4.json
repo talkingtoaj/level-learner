@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Write a regex pattern to match 'Hello' only at the beginning of a line.",
+    "answer": "^Hello"
+  },
+  {
+    "question": "Write a regex pattern to match 'world' only at the end of a line.",
+    "answer": "world$"
+  },
+  {
+    "question": "Write a regex pattern to match 'cat' as a whole word.",
+    "answer": "\\bcat\\b"
+  },
+  {
+    "question": "Write a regex pattern to match 'cat' when it's part of another word, but not at the start or end of the word.",
+    "answer": "\\Bcat\\B"
+  },
+  {
+    "question": "Write a regex pattern to match 'Start' only at the beginning of the entire string.",
+    "answer": "\\AStart"
+  },
+  {
+    "question": "Write a regex pattern to match 'End' at the end of the string or just before the final newline.",
+    "answer": "End\\Z"
+  },
+  {
+    "question": "Write a regex pattern to match 'Python' as a whole word at the end of a line.",
+    "answer": "\\bPython$"
+  },
+  {
+    "question": "Write a regex pattern to match 'un' at the start of a word, but not at the beginning of a line.",
+    "answer": "(?<!^)\\bun"
+  },
+  {
+    "question": "Write a regex pattern to match 'ing' at the end of a word, but not at the end of a line.",
+    "answer": "ing\\b(?!$)"
+  },
+  {
+    "question": "Write a regex pattern to match a word that starts with 'pre' and ends with 'tion', with any characters in between.",
+    "answer": "\\bpre.*tion\\b"
+  }
+]

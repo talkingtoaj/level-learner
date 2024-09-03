@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Write a regex pattern to match zero or more 'a's followed by a 'b'.",
+    "answer": "a*b"
+  },
+  {
+    "question": "Write a regex pattern to match one or more digits.",
+    "answer": "\\d+"
+  },
+  {
+    "question": "Write a regex pattern to match 'color' or 'colour'.",
+    "answer": "colou?r"
+  },
+  {
+    "question": "Write a regex pattern to match exactly three 'a's.",
+    "answer": "a{3}"
+  },
+  {
+    "question": "Write a regex pattern to match two or more 'b's.",
+    "answer": "b{2,}"
+  },
+  {
+    "question": "Write a regex pattern to match between 2 and 4 'c's.",
+    "answer": "c{2,4}"
+  },
+  {
+    "question": "Write a regex pattern to match any string that starts with 'a', ends with 'b', and has any number of characters in between (greedy).",
+    "answer": "a.*b"
+  },
+  {
+    "question": "Write a regex pattern to match any string that starts with 'a', ends with 'b', and has any number of characters in between (lazy).",
+    "answer": "a.*?b"
+  },
+  {
+    "question": "Write a regex pattern to match a word that has 'a' repeated at least twice, followed by any other characters.",
+    "answer": "a{2,}.*"
+  },
+  {
+    "question": "Write a regex pattern to match a string that has 1 to 3 digits followed by a space and then one or more letters.",
+    "answer": "\\d{1,3} [a-zA-Z]+"
+  }
+]

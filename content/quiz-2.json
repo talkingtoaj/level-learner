@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Write a regex pattern to match any single vowel.",
+    "answer": "[aeiou]"
+  },
+  {
+    "question": "Write a regex pattern to match any single digit.",
+    "answer": "[0-9]"
+  },
+  {
+    "question": "Write a regex pattern to match any single lowercase letter.",
+    "answer": "[a-z]"
+  },
+  {
+    "question": "Write a regex pattern to match any character that is not a vowel.",
+    "answer": "[^aeiou]"
+  },
+  {
+    "question": "Write a regex pattern to match any single letter, uppercase or lowercase.",
+    "answer": "[a-zA-Z]"
+  },
+  {
+    "question": "Write a regex pattern to match any hexadecimal digit.",
+    "answer": "[0-9a-fA-F]"
+  },
+  {
+    "question": "Write a regex pattern to match any non-digit character.",
+    "answer": "\\D"
+  },
+  {
+    "question": "Write a regex pattern to match any alphanumeric character.",
+    "answer": "\\w"
+  },
+  {
+    "question": "Write a regex pattern to match any whitespace character.",
+    "answer": "\\s"
+  },
+  {
+    "question": "Write a regex pattern to match any character that is not a letter.",
+    "answer": "[^a-zA-Z]"
+  }
+]

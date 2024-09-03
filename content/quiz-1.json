@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Write a regex pattern to match the word 'python' exactly.",
+    "answer": "python"
+  },
+  {
+    "question": "Write a regex pattern to match any five-letter word starting with 'h' and ending with 'o'.",
+    "answer": "h...o"
+  },
+  {
+    "question": "Write a regex pattern to match 'cat', 'cot', and 'cut'.",
+    "answer": "c.t"
+  },
+  {
+    "question": "Write a regex pattern to match any word containing the sequence 're'.",
+    "answer": ".*re.*"
+  },
+  {
+    "question": "Write a regex pattern to match 'apple' and 'apply'.",
+    "answer": "appl."
+  },
+  {
+    "question": "Write a regex pattern to match any three-letter word.",
+    "answer": "..."
+  },
+  {
+    "question": "Write a regex pattern to match 'dog' and 'dig'.",
+    "answer": "d.g"
+  },
+  {
+    "question": "Write a regex pattern to match any word starting with 'pro'.",
+    "answer": "pro.*"
+  },
+  {
+    "question": "Write a regex pattern to match 'hello' and 'jello'.",
+    "answer": ".ello"
+  },
+  {
+    "question": "Write a regex pattern to match any word ending with 'ing'.",
+    "answer": ".*ing"
+  }
+]

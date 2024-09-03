@@ -1,0 +1,42 @@
+[
+  {
+    "question": "Write a regex pattern with a flag to match 'Python' case-insensitively.",
+    "answer": "(?i)python"
+  },
+  {
+    "question": "Write a regex pattern with a flag to match 'Start' at the beginning of any line in a multiline string.",
+    "answer": "(?m)^Start"
+  },
+  {
+    "question": "Write a regex pattern with a flag to match any character, including newlines, between 'Begin' and 'End'.",
+    "answer": "(?s)Begin.*End"
+  },
+  {
+    "question": "Write a regex pattern using the verbose flag to match a phone number (e.g., 123-4567).",
+    "answer": "(?x)\d{3}-\d{4}"
+  },
+  {
+    "question": "Write a regex pattern with flags to match 'Python' case-insensitively at the end of any line.",
+    "answer": "(?im)python$"
+  },
+  {
+    "question": "Write a regex pattern with a flag to match 'A' to 'Z' as word characters, excluding non-ASCII letters.",
+    "answer": "(?a)[A-Z]"
+  },
+  {
+    "question": "Write a regex pattern with flags to match any word containing 'a' case-insensitively, treating the entire input as a single line.",
+    "answer": "(?is)\\b\\w*a\\w*\\b"
+  },
+  {
+    "question": "Write a regex pattern using the verbose flag to match an email address.",
+    "answer": "(?x)[\\w.%+-]+@[\\w.-]+\\.[A-Z]{2,}"
+  },
+  {
+    "question": "Write a regex pattern with flags to match 'Start' at the beginning and 'End' at the end of the entire string, ignoring case.",
+    "answer": "(?is)\\AStart.*End\\Z"
+  },
+  {
+    "question": "Write a regex pattern with a flag to match 'python' or 'Python' as whole words only.",
+    "answer": "(?i)\\bpython\\b"
+  }
+]
