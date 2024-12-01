@@ -20,7 +20,7 @@ def load_tutorial(level):
 def update_tutorial_buttons(username):
     user = db.get_user(username)
     return Div(
-        *[Button(f"Level {i}", hx_get=f"/tutorial/{i}", hx_target="#content")
+        *[Button(f"Level {i}", hx_get=f"/tutorial/{i}?username={username}", hx_target="#content")
           for i in range(1, user.current_level + 1)],
         id="tutorial-links-content",
         hx_swap_oob="true"
@@ -155,12 +155,16 @@ def post(username: str):
     )
 
 @rt('/tutorial/{level}')
-def get(level: int):
+def get(level: int, request=None, username: str = None):
+    if not username:
+        return Div("Please log in first")
+    
     content = load_tutorial(level)
     return Div(
         H2(f"Level {level} Tutorial"),
         Div(NotStr(content)),
-        Button("Back to Quiz", hx_get="/quiz", hx_target="#content")
+        Button("Back to Quiz", hx_get=f"/quiz?username={username}", hx_target="#content"),
+        _after=update_tutorial_buttons(username)
     )
 
 @rt('/quiz')
